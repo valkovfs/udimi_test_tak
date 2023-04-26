@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/static/fonts/Roboto-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f2f5fa;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity ease-in-out 1s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+  transition: opacity ease-in-out 1s;
+}
