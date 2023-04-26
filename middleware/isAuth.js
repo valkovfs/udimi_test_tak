@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-export default function({ app, $cookies, redirect, route }) {
+export default function({ app, redirect, route }) {
   const token = app.$cookies.get('token')
 
   const isAuthenticated = !!token
